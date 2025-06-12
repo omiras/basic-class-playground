@@ -6,7 +6,7 @@ class Coche {
   }
 
   acelerar() {
-    // Completar: resta 1 unidad de gasolina
+    // Completar: resta 1 unidad de gasolina (si queda gasolina)
   }
 
   repostar() {
