@@ -5,7 +5,7 @@
  */
 
 function validarDNI(dni) {
-  const regex = /^[0-9]{8}[A-Z]$/i; // <-- SOLAMENTE cambia esta línea
+  const regex = new RegExp("^[0-9]{8}[A-Z]$", "i");
   return regex.test(dni);
 }
 

@@ -7,7 +7,7 @@
  */
 
 const ahora = new Date();
-console.log(ahora); // Fecha y hora actual
+//console.log(ahora); // Fecha y hora actual
 
 /**
  * EJERCICIO: Escribe el código necesario para instanciar un objeto de la clase Date y luego usa uno de sus métodos para que te muestre la siguiente fecha y en este formato:
@@ -15,3 +15,10 @@ console.log(ahora); // Fecha y hora actual
  */
 
 // const fechaPasada = new Date(...);
+
+const fechaPasada = new Date("1995-07-10");
+console.log(fechaPasada.toDateString());
+
+const fechaPasadaAlejandro = new Date(1995, 6 , 10); // Interesante: los meses empiezan en el número 0, siendo 0 enero, 1 febrero, y así...
+console.log(fechaPasadaAlejandro.toDateString());
+

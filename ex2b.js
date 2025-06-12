@@ -16,7 +16,7 @@ console.log(lista); // ["manzana", "pera"]
  */
 
 function removeDuplicates(arr) {
-    // Completar
+    // Completar: 1 o 2 línea de código
 }
 
 // 🧪 Pruebas
