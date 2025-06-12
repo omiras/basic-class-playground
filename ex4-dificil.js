@@ -2,7 +2,7 @@
  * Mi propia estructura de datos 
  */
 
-class LimitedArray {
+class LimitedSet {
     constructor(limit) {
 
     }
