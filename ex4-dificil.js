@@ -2,14 +2,14 @@
  * Mi propia estructura de datos 
  */
 
-class LimitedArray {
+class LimitedSet {
     constructor(limit) {
         this.limit = limit;
         this.arr = [];
     }
 
     add(elem) {
-        if (this.arr.length < this.limit) {
+        if (this.arr.length < this.limit && !this.arr.includes(elem)) {
             this.arr.push(elem);
         }
     }
@@ -23,14 +23,11 @@ class LimitedArray {
     }
 
     removeElement(elem) {
-        const idx = this.arr.indexOf(elem);
-        if (idx !== -1) {
-            this.arr.splice(idx, 1);
-        }
+        this.arr = this.arr.filter(e => e !== elem);
     }
 }
 
-const l = new LimitedArray(3);
+const l = new LimitedSet(3);
 console.log(l.size()); // 0
 l.add("a");
 l.add("b");

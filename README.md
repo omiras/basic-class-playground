@@ -113,5 +113,57 @@ l.add("d"); // Ignorado
 console.log(l.values()); // ["a", "b", "c"]
 ```
 
+# ex4-dificil.js - LimitedSet
+
+La clase `LimitedSet` es una estructura de datos personalizada que almacena elementos únicos (sin repetidos) hasta un número máximo definido al crear la instancia.
+
+## Métodos
+
+### constructor(limit)
+Crea una nueva instancia de `LimitedSet` con un límite máximo de elementos.
+- **Parámetros:**
+  - `limit` (number): Número máximo de elementos permitidos.
+
+### add(elem)
+Agrega un elemento al conjunto si no se ha alcanzado el límite y el elemento no existe ya en el conjunto.
+- **Parámetros:**
+  - `elem` (any): Elemento a agregar.
+- **Comportamiento:**
+  - Si el conjunto ya tiene el número máximo de elementos, o el elemento ya existe, el nuevo elemento es ignorado.
+
+### values()
+Devuelve un array con todos los elementos almacenados.
+- **Retorna:**
+  - `Array<any>`: Lista de elementos actuales.
+
+### size()
+Devuelve el número de elementos almacenados actualmente.
+- **Retorna:**
+  - `number`: Cantidad de elementos en el conjunto.
+
+### removeElement(elem)
+Elimina todas las ocurrencias de un elemento del conjunto (aunque solo puede haber una).
+- **Parámetros:**
+  - `elem` (any): Elemento a eliminar.
+- **Comportamiento:**
+  - Si el elemento no existe, no ocurre ningún cambio.
+
+---
+
+## Ejemplo de uso
+```js
+const l = new LimitedSet(3);
+l.add("a");
+l.add("b");
+l.add("c");
+l.add("d"); // Ignorado
+l.add("a"); // Ignorado (ya existe)
+console.log(l.values()); // ["a", "b", "c"]
+l.removeElement("b");
+console.log(l.values()); // ["a", "c"]
+l.add("gato");
+console.log(l.values()); // ["a", "c", "gato"]
+```
+
 
 
