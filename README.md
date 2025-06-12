@@ -78,3 +78,30 @@ l.add("d"); // Ignorado
 console.log(l.values()); // ["a", "b", "c"]
 ```
 
+# Clase Coche
+
+La clase `Coche` representa un coche con una marca, modelo y un nivel de gasolina. A continuación se describen los métodos a implementar:
+
+## Métodos
+
+### acelerar()
+Resta 1 unidad de gasolina al coche cada vez que se llama.
+- **Comportamiento:**
+  - Si la gasolina es mayor que 0, se resta 1.
+  - Si la gasolina es 0, no se puede acelerar más.
+
+
+### repostar()
+Rellena el depósito de gasolina al máximo (5).
+- **Comportamiento:**
+  - La gasolina vuelve a ser 5.
+
+---
+
+## Ejemplo de uso
+```js
+const miCoche = new Coche("Toyota", "Corolla");
+miCoche.acelerar(); // gasolina: 4
+miCoche.repostar(); // gasolina: 5
+```
+
