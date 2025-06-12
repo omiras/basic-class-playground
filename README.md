@@ -1,5 +1,10 @@
 # Clases JavaScript
 
+## ex1.js
+
+Resultado esperado:
+<img src="https://oscarm.tinytake.com/media/1777803?filename=1749743627391_TinyTake12-06-2025-05-53-37_638853404266396722.png&sub_type=thumbnail_preview&type=attachment&width=1195&height=191" title="Powered by TinyTake Screen Capture"/><br><a href="https://www.tinytake.com">Powered by TinyTake Screen Capture</a>
+
 ## ex2c - Clase Coche
 
 La clase `Coche` representa un coche con una marca, modelo y un nivel de gasolina. A continuación se describen los métodos a implementar:
@@ -28,7 +33,7 @@ miCoche.acelerar(); // gasolina: 3
 miCoche.repostar(); // gasolina: 5
 ```
 
-## ex3 : Creación de una clase simple
+## ex3 : Creación de la clase Character
 
 Modifica solamente el código dentro del bloque Class {}
 Crea una clase de nombre Character
@@ -56,6 +61,8 @@ La clase Character tiene tres métodos
 
 - El método isAlive no tiene argumentos.
 - Retorna un _true_ si el personaje está vivo, y _false_ en caso contrario
+
+<img src="https://oscarm.tinytake.com/media/1777807?filename=1749743800981_TinyTake12-06-2025-05-56-38_638853405999741946.png&sub_type=thumbnail_preview&type=attachment&width=800&height=274" title="Powered by TinyTake Screen Capture"/><br><a href="https://www.tinytake.com">Powered by TinyTake Screen Capture</a>
 
 ---
 
