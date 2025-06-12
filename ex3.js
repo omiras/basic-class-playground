@@ -38,7 +38,7 @@ console.log(`Nivel: ${hero.level}`);           // Nivel: 0
 // El personaje sube de nivel 
 hero.levelUp();
 console.log(`Nivel: ${hero.level}`);           // Nivel: 1 (Recuerda que todas sus estádisticas aumentan en 1)
-console.log(`Nivel: ${hero.attackPower}`);     // Poder de ataque: 6
+console.log(`Poder de ataque: ${hero.attackPower}`);     // Poder de ataque: 6
 
 // El personaje se pone a luchar contra un goblin
 const goblin = new Character("Gollum", 2, 1, 6);

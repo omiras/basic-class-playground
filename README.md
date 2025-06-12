@@ -1,5 +1,10 @@
 # Clases JavaScript
 
+## ex1.js
+
+Resultado esperado:
+<img src="https://oscarm.tinytake.com/media/1777803?filename=1749743627391_TinyTake12-06-2025-05-53-37_638853404266396722.png&sub_type=thumbnail_preview&type=attachment&width=1195&height=191" title="Powered by TinyTake Screen Capture"/><br><a href="https://www.tinytake.com">Powered by TinyTake Screen Capture</a>
+
 ## ex2c - Clase Coche
 
 La clase `Coche` representa un coche con una marca, modelo y un nivel de gasolina. A continuación se describen los métodos a implementar:
