@@ -1,6 +1,6 @@
 # Clases JavaScript
 
-## ex2b - Clase Coche
+## ex2c - Clase Coche
 
 La clase `Coche` representa un coche con una marca, modelo y un nivel de gasolina. A continuación se describen los métodos a implementar:
 
