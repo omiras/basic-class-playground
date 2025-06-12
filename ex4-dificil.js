@@ -24,7 +24,7 @@ class LimitedSet {
     }
 }
 
-const l = new LimitedArray(3);
+const l = new LimitedSet(3);
 console.log(l.size()); // 0
 l.add("a");
 l.add("b");

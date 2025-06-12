@@ -26,4 +26,4 @@ console.log("Gasolina tras acelerar 6 veces:", miCoche.gasolina);
 miCoche.repostar();
 console.log("Gasolina tras repostar:", miCoche.gasolina);
 
-// Resultado esperado: https://oscarm.tinytake.com/media/1777803?filename=1749743627391_TinyTake12-06-2025-05-53-37_638853404266396722.png&sub_type=thumbnail_preview&type=attachment&width=1195&height=191
+// Resultado esperado: https://oscarm.tinytake.com/media/1777966?filename=1749755650108_TinyTake12-06-2025-05-58-20_638853407020501436_1749755650.png&sub_type=thumbnail_preview&type=attachment&width=795&height=117

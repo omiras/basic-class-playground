@@ -66,53 +66,6 @@ La clase Character tiene tres métodos
 
 ---
 
-# LimitedArray
-
-`LimitedArray` es una clase personalizada que implementa una estructura de datos similar a un array, pero con un tamaño máximo limitado. A continuación se describen sus métodos:
-
-## Métodos
-
-### constructor(limit)
-Crea una nueva instancia de `LimitedArray` con un límite máximo de elementos.
-- **Parámetros:**
-  - `limit` (number): Número máximo de elementos permitidos.
-
-### add(elem)
-Agrega un elemento al array si no se ha alcanzado el límite.
-- **Parámetros:**
-  - `elem` (any): Elemento a agregar.
-- **Comportamiento:**
-  - Si el array ya tiene el número máximo de elementos, el nuevo elemento es ignorado.
-
-### values()
-Devuelve un array con todos los elementos almacenados.
-- **Retorna:**
-  - `Array<any>`: Lista de elementos actuales.
-
-### size()
-Devuelve el número de elementos almacenados actualmente.
-- **Retorna:**
-  - `number`: Cantidad de elementos en el array.
-
-### removeElement(elem)
-Elimina la primera ocurrencia de un elemento del array.
-- **Parámetros:**
-  - `elem` (any): Elemento a eliminar.
-- **Comportamiento:**
-  - Si el elemento no existe, no ocurre ningún cambio.
-
----
-
-## Ejemplo de uso
-```js
-const l = new LimitedArray(3);
-l.add("a");
-l.add("b");
-l.add("c");
-l.add("d"); // Ignorado
-console.log(l.values()); // ["a", "b", "c"]
-```
-
 # ex4-dificil.js - LimitedSet
 
 La clase `LimitedSet` es una estructura de datos personalizada que almacena elementos únicos (sin repetidos) hasta un número máximo definido al crear la instancia.
