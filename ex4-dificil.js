@@ -4,7 +4,7 @@
 
 class LimitedSet {
     constructor(limit) {
-
+        this.elements = [];
     }
 
     add(elem) {

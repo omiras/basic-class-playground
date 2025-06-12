@@ -6,7 +6,7 @@
 const miSet = new Set(["manzana", "pera", "manzana"]);
 const lista = [...miSet]; // ... operador de spread
 
-console.log(lista); // ["manzana", "pera"]
+//console.log(lista); // ["manzana", "pera"]
 
 
 /**
@@ -17,6 +17,9 @@ console.log(lista); // ["manzana", "pera"]
 
 function removeDuplicates(arr) {
     // Completar: 1 o 2 línea de código
+    const set = new Set(arr);
+    return [...set]; // operador spread
+    
 }
 
 // 🧪 Pruebas
