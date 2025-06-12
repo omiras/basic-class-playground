@@ -24,6 +24,7 @@ Rellena el depósito de gasolina al máximo (5).
 ```js
 const miCoche = new Coche("Toyota", "Corolla");
 miCoche.acelerar(); // gasolina: 4
+miCoche.acelerar(); // gasolina: 3
 miCoche.repostar(); // gasolina: 5
 ```
 
