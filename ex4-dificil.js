@@ -4,23 +4,29 @@
 
 class LimitedArray {
     constructor(limit) {
-
+        this.limit = limit;
+        this.arr = [];
     }
 
     add(elem) {
-
+        if (this.arr.length < this.limit) {
+            this.arr.push(elem);
+        }
     }
 
     values() {
-
+        return [...this.arr];
     }
 
     size() {
-
+        return this.arr.length;
     }
 
     removeElement(elem) {
-        
+        const idx = this.arr.indexOf(elem);
+        if (idx !== -1) {
+            this.arr.splice(idx, 1);
+        }
     }
 }
 

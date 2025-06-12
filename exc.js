@@ -14,7 +14,6 @@ class Coche {
   repostar() {
     this.gasolina = 5;
   } 
-
 }
 
 const miCoche = new Coche("Toyota", "Corolla");
@@ -23,8 +22,6 @@ miCoche.acelerar();
 miCoche.acelerar();
 miCoche.acelerar();
 miCoche.acelerar(); // Debería dejar gasolina en 0
-miCoche.acelerar(); // La gasolina debería seguir siendo 0
-console.log("Gasolina tras acelerar 6 veces:", miCoche.gasolina);
+console.log("Gasolina tras acelerar 5 veces:", miCoche.gasolina);
 miCoche.repostar();
 console.log("Gasolina tras repostar:", miCoche.gasolina);
-
