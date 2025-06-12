@@ -21,7 +21,8 @@ miCoche.acelerar();
 miCoche.acelerar();
 miCoche.acelerar();
 miCoche.acelerar(); // Debería dejar gasolina en 0
-console.log("Gasolina tras acelerar 5 veces:", miCoche.gasolina);
+miCoche.acelerar(); // La gasolina debería seguir siendo 0
+console.log("Gasolina tras acelerar 6 veces:", miCoche.gasolina);
 miCoche.repostar();
 console.log("Gasolina tras repostar:", miCoche.gasolina);
 
